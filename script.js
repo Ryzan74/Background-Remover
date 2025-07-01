@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        if (!REMOVEBG_API_KEY || REMOVEBG_API_KEY === 'mhybvMLBah5r7Jt7gy5rZgvL') {
+        if (!REMOVEBG_API_KEY || REMOVEBG_API_KEY === 'YOUR_REMOVEBG_API_KEY_HERE') {
             alert('API Key remove.bg belum dikonfigurasi. Harap masukkan API Key Anda di script.js.');
             console.error('REMOVEBG_API_KEY not configured.');
             resetUI();
